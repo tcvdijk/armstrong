@@ -4,7 +4,7 @@ _Thomas C. van Dijk and Andre Löffler_
 
 ## Description
 
-Topologically-safe rounding of geographic networks.
+Topologically-safe rounding of geographic networks. For experimental data, see http://www1.pub.informatik.uni-wuerzburg.de/pub/data/armstrong/
 
 ## Running Armstrong
 
