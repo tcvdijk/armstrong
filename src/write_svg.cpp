@@ -33,7 +33,7 @@ void write_svg(vector<Vertex*>& vertices, vector<Edge*>& edges,
 	int width = std::ceil(max_x - min_x);
 	int height = std::ceil(max_y - min_y);
 	if (width > 1000 || height > 1000) console->warn("Grid is very big; SVG file will be unwieldy.");
-	svg << fmt::format(R"(<svg viewbox="-1 -1 {} {}">)",
+	svg << fmt::format(R"(<svg viewbox="-1 -1 {} {}" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">)",
 		std::ceil(-min_x + max_x) + 3,
 		std::ceil(-min_y + max_y) + 3
 	);
